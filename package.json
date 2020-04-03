@@ -1,0 +1,27 @@
+{
+  "name": "detect-usb",
+  "version": "1.0.0",
+  "description": "Detect USB and get mount points/paths",
+  "main": "index.js",
+  "keywords": [
+    "usb",
+    "usb-detect",
+    "usb-detection",
+    "detect-usb",
+    "usb-events"
+  ],
+  "author": "sudhakar3697 <sudax3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "drivelist": "^8.0.10",
+    "usb-detection": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudhakar3697/detect-usb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sudhakar3697/detect-usb/issues"
+  },
+  "homepage": "https://github.com/sudhakar3697/detect-usb#readme"
+}
