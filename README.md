@@ -6,6 +6,14 @@ Usage
 ```
 const usbEvents = require('detect-usb');
 
+// To start listening
+usbEvents.startListening();
+
+// To get list of connected USBs
+(async () => {
+    console.log(await usbEvents.getUSBList());
+})();
+
 usbEvents.on('insert', (data) => {
     console.log(data);
 })
