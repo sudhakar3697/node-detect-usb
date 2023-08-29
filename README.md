@@ -1,9 +1,9 @@
 # detect-usb
 Detect USB and get mount points/paths
 
-Usage
+## Usage
 
-```
+```javascript
 const usbEvents = require('detect-usb');
 
 // To start listening
@@ -26,9 +26,9 @@ usbEvents.on('eject', (data) => {
 usbEvents.stopListening();
 ```
 
-Sample Data
+## Sample Data
 
-```
+```json5
 { 
 event: 'insert',
 data:
@@ -43,7 +43,7 @@ data:
 { event: 'eject', data: { key: '/media/test/sss' } }
 ```
 
-Note
+## Note
 
 * Verified on Windows & Linux
 * Uses [usb-detection](https://www.npmjs.com/package/usb-detection) & [drivelist](https://www.npmjs.com/package/drivelist)
